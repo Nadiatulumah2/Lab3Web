@@ -8,7 +8,7 @@
 
 - Untuk menjalankan MySQL Server dari menu XAMPP Contol.
 
-![MySQL](img/MySQL_Server.png)
+![MySQL_Server](https://github.com/IdrisSyahrudin/Lab3Web/assets/129921422/9654e111-49e8-485a-abe2-74c43329761c)
 
 - Pastikan Web server Apache dan MySQL Server sudah dijalankan. Kemudian buka melalui browser: http://localhost/phpmyadmin/
 
@@ -35,7 +35,7 @@ CREATE TABLE data_barang(
 );
 ```
 
-![Create Database](img/database.PNG)
+![database](https://github.com/IdrisSyahrudin/Lab3Web/assets/129921422/f0e3dc28-b44e-462b-9868-50997e6d3711)
 
 3. Setelah itu, Tambahkan data dalam table tersebut dengan memasukan perintah berikut.
 
@@ -43,7 +43,7 @@ CREATE TABLE data_barang(
 INSERT INTO `data_barang` (`id_barang`, `nama`, `kategori`, `gambar`, `harga_beli`, `harga_jual`, `stok`) VALUES (NULL, 'HP Samsung Android', 'Elektronik', 'gambar/HP samsung.jpg', '30000000', '30500000', '1'), (NULL, 'HP Xiaomi', 'Elektronik', 'gambar/HP xiaomi.jpg', '6070000', '6080000', '2');
 ```
 
-![Data Barang](img/databarang.PNG)
+![databarang](https://github.com/IdrisSyahrudin/Lab3Web/assets/129921422/88415f1b-4133-41b0-a171-1ccb9f1f1ab9)
 
 ## Membuat Program CRUD
 
@@ -66,7 +66,7 @@ if ($conn == false) {
 3. Jika gambarnya seperti ini maka berhasil koneksi ke database. Untuk menyampilkan pesan koneksi berhasil,
    uncomment pada perintah var_dump($koneksi);
 
-![Koneksi](img/koneksi.PNG)
+![koneksi](https://github.com/IdrisSyahrudin/Lab3Web/assets/129921422/095f8e49-e3f1-4991-b625-10804e8e0d3e)
 
 ## Menampilkan Data (Read)
 
@@ -174,7 +174,7 @@ $result = mysqli_query($conn, $query);
 
 - Maka hasilnya akan seperti berikut.
 
-![Read](img/read.PNG)
+![read](https://github.com/IdrisSyahrudin/Lab3Web/assets/129921422/b56c43da-1dae-4f81-8552-b66f17a9679a)
 
 ## Menambah Data (Create)
 
@@ -292,7 +292,7 @@ $result = mysqli_query($conn, $query);
 
 - Maka hasilnya akan seperti berikut.
 
-![Create](img/create.png)
+![create](https://github.com/IdrisSyahrudin/Lab3Web/assets/129921422/df76f1c3-8da3-41ca-a90a-81cf300fd245)
 
 - Kemudian, tambahkan file baru dengan nama `proses.php` yang mana fungsi ini akan digunakan untuk memproses semuanya.
 - Masukan kode berikut.
@@ -376,7 +376,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 - Jika berhasil, maka data baru sukses ditambahkan.
 
-![Proses-Tambah](img/tambah.PNG)
+![tambah](https://github.com/IdrisSyahrudin/Lab3Web/assets/129921422/ed2df9e0-7102-431a-b6eb-1f174d8dfa91)
 
 ## Mengubah Data (Update)
 
@@ -470,7 +470,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 - Maka hasilnya akan seperti berikut.
 
-![Update](img/ubahbarang.PNG)
+![ubahbarang](https://github.com/IdrisSyahrudin/Lab3Web/assets/129921422/8b135000-b26d-4adf-a7a7-4a6cb36d7eb2)
 
 ## Menghapus Data (Delete)
 
@@ -492,6 +492,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 - Maka hasilnya akan seperti berikut.
 
-![Detele](img/delete.PNG)
+![delete](https://github.com/IdrisSyahrudin/Lab3Web/assets/129921422/c445ff79-47dc-4092-8590-7d9b10502a27)
 
 # Terima Kasih!
