@@ -1,5 +1,15 @@
 # Tugas Pemograman Web 2
 
+Nama : Idris Syahrudin
+
+Nim : 312210467
+
+Kelas : TI.22.A5
+
+Mata Kuliah : Pemrograman web
+
+Dosen Pengampu : Agung Nugroho, S.Kom., M.Kom.
+
 # Persiapan
 
 <p>Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.</p>
